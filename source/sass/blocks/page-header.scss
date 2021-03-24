@@ -2,9 +2,21 @@
   position: absolute;
   width: 100%;
   padding-top: 21px;
+
+  @media (max-width: $tablet-width) {
+    padding-top: 0;
+  }
+
+  &--nojs {
+    position: static;
+
+    & .page-header__toggle {
+      display: none;
+    }
+  }
 }
 
-.page-header__wrapper {
+.page-header__nav {
   max-width: 1166px;
   width: 100%;
   margin: 0 auto;
@@ -28,5 +40,10 @@
     right: 0;
     z-index: 1;
     display: block;
+  }
+
+  &--opened {
+    background-color: $white;
+    background-image: url('../../img/close-icon.svg');
   }
 }
