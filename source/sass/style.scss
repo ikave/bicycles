@@ -2,9 +2,10 @@
 @import 'vendors/normalize';
 @import 'variables/variables';
 @import 'base/base';
+@import 'blocks/visually-hidden';
+@import 'blocks/page-header';
+@import 'blocks/main-nav';
+@import 'blocks/menu';
+@import 'blocks/hero';
+@import 'blocks/form';
 
-
-h1 {
-  color: red;
-  font-family: 'Open Sans';
-}

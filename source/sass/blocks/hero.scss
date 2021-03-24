@@ -1,0 +1,57 @@
+.hero {
+  min-height: 825px;
+  background-color: $bg-dark;
+  background-image: url('../../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__wrapper {
+  display: flex;
+  padding-top: 318px;
+  padding-bottom: 240px;
+  max-width: 880px;
+  margin: 0 auto;
+  color: $white;
+}
+
+.hero__description {
+  max-width: 393px;
+}
+
+.hero__logo {
+  margin-bottom: 31px;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -0.005em;
+}
+
+.hero__subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: -0.005em;
+  color: rgba($white, 0.8);
+}
+
+.hero__form {
+  max-width: 327px;
+  margin-left: auto;
+}
+
+.hero__form-title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.005em;
+}
