@@ -5,23 +5,55 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  @media (max-width: $tablet-width) {
+    background-image: none;
+    background-color: $white;
+  }
 }
 
 .hero__wrapper {
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 318px;
   padding-bottom: 240px;
   max-width: 880px;
   margin: 0 auto;
   color: $white;
+
+  @media (max-width: $tablet-width) {
+    max-width: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .hero__description {
   max-width: 393px;
+
+  @media (max-width: $tablet-width) {
+    max-width: none;
+    width: 100%;
+    padding-top: 138px;
+    padding-right: 21px;
+    padding-bottom: 80px;
+    padding-left: 21px;
+    background-color: $bg-dark;
+    background-image: url('../../img/hero-tablet.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .hero__logo {
   margin-bottom: 31px;
+
+  @media (max-width: $tablet-width) {
+    position: absolute;
+    top: 25px;
+  }
 }
 
 .hero__title {
@@ -31,6 +63,13 @@
   font-weight: 700;
   line-height: 64px;
   letter-spacing: -0.005em;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+  }
 }
 
 .hero__subtitle {
@@ -39,11 +78,26 @@
   line-height: 32px;
   letter-spacing: -0.005em;
   color: rgba($white, 0.8);
+
+  @media (max-width: $tablet-width) {
+    max-width: 435px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+  }
 }
 
 .hero__form {
   max-width: 327px;
   margin-left: auto;
+
+  @media (max-width: $tablet-width) {
+    max-width: 321px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
 }
 
 .hero__form-title {
@@ -54,4 +108,8 @@
   line-height: 28px;
   text-align: center;
   letter-spacing: -0.005em;
+
+  @media (max-width: $tablet-width) {
+    color: $black;
+  }
 }
