@@ -1,0 +1,42 @@
+.map__description {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.map__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+.map__address {
+  margin: 0;
+  margin-bottom: 41px;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.map__wrapper {
+  max-width: 957px;
+  margin: 0 auto;
+
+  @media (max-width: $tablet-width) {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.map__image {
+  width: 100%;
+}

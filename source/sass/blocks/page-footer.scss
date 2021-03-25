@@ -1,0 +1,11 @@
+.page-footer {
+  max-width: 1166px;
+  margin: 0 auto;
+  padding-top: 39px;
+  padding-bottom: 76px;
+
+  @media (max-width: $mobile-width) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
