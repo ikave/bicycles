@@ -1,0 +1,23 @@
+.product {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 342px;
+
+  @media (max-width: $tablet-width) {
+    max-width: 270px;
+  }
+}
+
+.product__title {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.product__image {
+  border-radius: 10px;
+}
