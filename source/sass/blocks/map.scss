@@ -1,3 +1,7 @@
+.map {
+  padding-top: 50px;
+}
+
 .map__description {
   padding-left: 16px;
   padding-right: 16px;
@@ -5,7 +9,7 @@
 
 .map__title {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
@@ -14,11 +18,12 @@
 }
 
 .map__address {
-  margin: 0;
-  margin-bottom: 41px;
+  max-width: 555px;
+  margin: 0 auto;
+  margin-bottom: 38px;
   font-style: normal;
   font-size: 17px;
-  line-height: 31px;
+  line-height: 32px;
   text-align: center;
 }
 

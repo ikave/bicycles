@@ -1,5 +1,4 @@
 .hero {
-  min-height: 825px;
   background-color: $bg-dark;
   background-image: url('../../img/hero.jpg');
   background-repeat: no-repeat;
@@ -17,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   padding-top: 318px;
-  padding-bottom: 240px;
+  padding-bottom: 219px;
   max-width: 880px;
   margin: 0 auto;
   color: $white;
@@ -54,7 +53,7 @@
 }
 
 .hero__logo {
-  margin-bottom: 31px;
+  margin-bottom: 28px;
 
   @media (max-width: $tablet-width) {
     position: absolute;
@@ -97,6 +96,7 @@
 .hero__form {
   max-width: 327px;
   margin-left: auto;
+  padding-top: 4px;
 
   @media (max-width: $tablet-width) {
     max-width: 321px;
