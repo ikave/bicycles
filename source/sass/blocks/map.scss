@@ -4,6 +4,10 @@
   @media (max-width: $tablet-width) {
     padding-top: 16px;
   }
+
+  @media (max-width: $mobile-width) {
+    padding-top: 19px;
+  }
 }
 
 .map__description {
@@ -24,6 +28,10 @@
     margin-bottom: 20px;
     font-size: 24px;
   }
+
+  @media (max-width: $mobile-width) {
+    font-size: 18px;
+  }
 }
 
 .map__address {
@@ -38,6 +46,10 @@
   @media (max-width: $tablet-width) {
     max-width: 635px;
     margin-bottom: 19px;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 17px;
   }
 }
 
