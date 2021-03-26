@@ -36,7 +36,7 @@
     width: 100%;
     padding-top: 138px;
     padding-right: 21px;
-    padding-bottom: 80px;
+    padding-bottom: 76px;
     padding-left: 21px;
     background-color: $bg-dark;
     background-image: url('../../img/hero-tablet.jpg');
@@ -121,6 +121,8 @@
   letter-spacing: -0.005em;
 
   @media (max-width: $tablet-width) {
+    margin-bottom: 30px;
+    font-size: 18px;
     color: $black;
   }
 }

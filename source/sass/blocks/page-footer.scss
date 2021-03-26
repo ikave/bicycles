@@ -4,6 +4,11 @@
   padding-top: 36px;
   padding-bottom: 74px;
 
+  @media (max-width: $tablet-width) {
+    padding-top: 18px;
+    padding-bottom: 30px;
+  }
+
   @media (max-width: $mobile-width) {
     padding-left: 16px;
     padding-right: 16px;

@@ -10,6 +10,10 @@
   font: inherit;
   font-size: 15px;
   line-height: 24px;
+
+  @media (max-width: $tablet-width) {
+    padding-left: 21px;
+  }
 }
 
 .form__submit {

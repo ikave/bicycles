@@ -1,6 +1,11 @@
 .advantages {
   padding-top: 150px;
   padding-bottom: 110px;
+
+  @media (max-width: $tablet-width) {
+    padding-top: 6px;
+    padding-bottom: 29px;
+  }
 }
 
 .advantages__wrapper {
@@ -24,6 +29,11 @@
   letter-spacing: -0.005em;
   text-align: center;
   color: $heading;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 35px;
+    font-size: 24px;
+  }
 }
 
 .advantages__list {

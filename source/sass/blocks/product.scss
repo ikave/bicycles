@@ -16,6 +16,10 @@
   line-height: 34px;
   letter-spacing: -0.5px;
   text-align: center;
+
+  @media (max-width: $tablet-width) {
+    margin-top: 17px;
+  }
 }
 
 .product__image {
