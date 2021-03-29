@@ -22,5 +22,5 @@ body {
   min-width: 320px;
   min-height: 100vh;
   grid-template-rows: min-content 1fr min-content;
-  font-family: $font, 'Arial, sans-serif';
+  font-family: $font, 'Arial', sans-serif;
 }
