@@ -87,6 +87,10 @@
   @media (max-width: $tablet-width) {
     max-width: 503px;
   }
+
+  @media (max-width: $mobile-width) {
+    max-width: 100%;
+  }
 }
 
 .video__play {

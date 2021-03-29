@@ -40,7 +40,7 @@
   display: grid;
   align-items: flex-start;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 50px;
+  column-gap: 6.5%;
   margin: 0;
   padding: 0 20px;
   list-style: none;
@@ -48,7 +48,7 @@
   @media (max-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
-    max-width: 630px;
+    // max-width: 630px;
     margin: 0 auto;
     justify-content: center;
   }
