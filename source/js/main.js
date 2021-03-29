@@ -15,9 +15,11 @@
     if (menu.classList.contains('menu--closed')) {
       menu.classList.remove('menu--closed');
       menu.classList.add('menu--opened');
+      document.body.style.overflowY = 'hidden';
     } else {
       menu.classList.add('menu--closed');
       menu.classList.remove('menu--opened');
+      document.body.style.overflowY = 'visible';
     }
   });
 })();
