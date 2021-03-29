@@ -42,19 +42,19 @@
     display: flex;
   }
 
-  & .page-header__toggle-close {
-    display: none;
-  }
-
   &--opened {
     background-color: $white;
-
-    & .page-header__toggle-close {
-      display: block;
-    }
-
-    & .page-header__toggle-menu {
-      display: none;
-    }
   }
+}
+
+.page-header__toggle-close {
+  display: none;
+}
+
+.page-header__toggle--opened .page-header__toggle-close {
+  display: block;
+}
+
+.page-header__toggle--opened .page-header__toggle-menu {
+  display: none;
 }
