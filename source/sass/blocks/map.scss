@@ -15,7 +15,7 @@
   padding-right: 16px;
 }
 
-.map__title {
+.map h2 {
   margin: 0;
   margin-bottom: 28px;
   font-weight: 600;
@@ -34,7 +34,7 @@
   }
 }
 
-.map__address {
+.map address {
   max-width: 555px;
   margin: 0 auto;
   margin-bottom: 38px;
@@ -68,6 +68,6 @@
   }
 }
 
-.map__image {
+.map img {
   width: 100%;
 }

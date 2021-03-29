@@ -6,15 +6,15 @@
 
   @media (max-width: $tablet-width) {
     padding-top: 0;
-  }
 
-  &--nojs {
-    position: static;
-
-    & .page-header__toggle {
-      display: none;
+    &--nojs {
+      position: static;
     }
   }
+}
+
+.page-header--nojs .page-header__toggle {
+  display: none;
 }
 
 .page-header__nav {

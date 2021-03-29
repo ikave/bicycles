@@ -45,7 +45,7 @@
   }
 }
 
-.video__title {
+.video h2 {
   margin: 0;
   margin-bottom: 20px;
   font-weight: 600;
@@ -59,7 +59,7 @@
   }
 }
 
-.video__description {
+.video p {
   margin: 0 auto 56px;
   max-width: 340px;
   font-weight: 300;
@@ -79,7 +79,7 @@
   }
 }
 
-.video__poster {
+.video__content {
   position: relative;
   max-width: 929px;
   margin: 0 auto;
