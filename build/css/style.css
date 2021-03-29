@@ -1117,11 +1117,11 @@ body {
   .contacts__item--mail::before {
     width: 26px;
     height: 20px;
-    background-image: url("../../img/icon-mail.svg"); }
+    background-image: url("../img/icon-mail.svg"); }
   .contacts__item--phone::before {
     width: 22px;
     height: 24px;
-    background-image: url("../../img/icon-phone.svg"); }
+    background-image: url("../img/icon-phone.svg"); }
   @media (max-width: 767px) {
     .contacts__item {
       margin-right: 0; } }
