@@ -52,12 +52,12 @@
     background-color: $mobile-link-bg;
 
     &::after {
-      content: '';
+      content: "";
       display: block;
       margin-left: auto;
       width: 25px;
       height: 25px;
-      background-image: url('../../img/icon-arrow.svg');
+      background-image: url("../../img/icon-arrow.svg");
       background-repeat: no-repeat;
       background-position: center;
       opacity: 0.5;

@@ -1,26 +1,26 @@
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: local("Open Sans"), local("OpenSans"), url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("../fonts/opensanssemibold.woff2") format("woff2"), url("../fonts/opensanssemibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
@@ -488,7 +488,7 @@ body {
       padding-right: 16px;
       background-color: #f6f6f6; }
       .menu__item::after {
-        content: '';
+        content: "";
         display: block;
         margin-left: auto;
         width: 25px;
@@ -653,7 +653,7 @@ body {
     .form input {
       padding-left: 21px; } }
 
-.form button[type='submit'] {
+.form button[type="submit"] {
   width: 100%;
   padding: 15px;
   font: inherit;
@@ -878,7 +878,7 @@ body {
   padding-top: 120px;
   padding-bottom: 100px; }
   .video::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -1086,7 +1086,7 @@ body {
   margin-right: 90px;
   margin-bottom: 22px; }
   .contacts__item::before {
-    content: '';
+    content: "";
     background-repeat: no-repeat;
     margin-right: 15px; }
   .contacts__item--mail::before {
@@ -1114,7 +1114,7 @@ body {
   position: relative;
   z-index: 1; }
   .decor--circle::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 166px;
     left: -60px;
@@ -1124,7 +1124,7 @@ body {
     border-radius: 50%;
     z-index: -1; }
   .decor--circle-small::before {
-    content: '';
+    content: "";
     position: absolute;
     top: -32px;
     right: -36px;
@@ -1133,7 +1133,7 @@ body {
     border: 17px solid #0ad9c6;
     border-radius: 50%; }
   .decor--squares::before, .decor--squares::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 47px;
     height: 47px;

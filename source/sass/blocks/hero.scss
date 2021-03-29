@@ -1,12 +1,12 @@
 .hero {
   background-color: $bg-dark;
-  background-image: url('../img/hero.jpg');
+  background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
   @media (min-resolution: 144dpi), (min-resolution: 2dppx) {
-    background-image: url('../img/hero@2x.jpg');
+    background-image: url("../img/hero@2x.jpg");
   }
 
   @media (max-width: $tablet-width) {
@@ -43,13 +43,13 @@
     padding-bottom: 76px;
     padding-left: 21px;
     background-color: $bg-dark;
-    background-image: url('../img/hero-tablet.jpg');
+    background-image: url("../img/hero-tablet.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     @media (min-resolution: 144dpi), (min-resolution: 2dppx) {
-      background-image: url('../img/hero-tablet@2x.jpg');
+      background-image: url("../img/hero-tablet@2x.jpg");
     }
   }
 
