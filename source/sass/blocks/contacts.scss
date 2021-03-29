@@ -54,4 +54,14 @@
   font-weight: 400;
   line-height: 22px;
   color: rgba($black, 0.5);
+  transition: color 0.2s ease;
+
+  &:hover,
+  &:focus {
+    color: $black;
+  }
+
+  &:active {
+    color: rgba($black, 0.3);
+  }
 }

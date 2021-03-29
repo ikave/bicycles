@@ -10,6 +10,12 @@
   font: inherit;
   font-size: 15px;
   line-height: 24px;
+  transition: box-shadow 0.2s ease;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 10px 5px rgba($accent , 0.8);
+  }
 
   @media (max-width: $tablet-width) {
     padding-left: 21px;
@@ -27,4 +33,19 @@
   border-radius: 6px;
   background-color: $accent;
   cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($accent, 10%);
+  }
+
+  &:active {
+    background-color: darken($accent, 10%);
+  }
+
+  &:disabled {
+    background-color: $border;
+    cursor: initial;
+  }
 }
