@@ -81,21 +81,27 @@
           <li class="goods__item product">
             <h3 class="product__title">Дорожный велосипед</h3>
             <picture>
-              <source media="(max-width: 1023px)" srcset="./img/good-1-tablet.jpg 1x, ./img/good-1-tablet@2x.jpg 2x">
+              <source type="image/webp" media="(max-width: 1023px)" srcset="./img/good-1-tablet.webp 1x, ./img/good-1-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="./img/good-1.webp 1x, ./img/good-1@2x.webp 2x">
+              <!-- 1х: 342px; 2x: 684px -->
               <img class="product__image" src="./img/good-1.jpg" width="342" height="503" srcset="./img/good-1@2x.jpg 2x" alt="Дорожный велосипед">
             </picture>
           </li>
           <li class="goods__item product">
             <h3 class="product__title">Горный велосипед</h3>
             <picture>
-              <source media="(max-width: 1023px)" srcset="./img/good-2-tablet.jpg 1x, ./img/good-2-tablet@2x.jpg 2x">
+              <source type="image/webp" media="(max-width: 1023px)" srcset="./img/good-2-tablet.webp 1x, ./img/good-2-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="./img/good-2.webp 1x, ./img/good-2@2x.webp 2x">
+              <!-- 1х: 342px; 2x: 684px -->
               <img class="product__image" src="./img/good-2.jpg" width="342" height="503" srcset="./img/good-2@2x.jpg 2x" alt="Горный велосипед">
             </picture>
           </li>
           <li class="goods__item product">
             <h3 class="product__title">Детский велосипед</h3>
             <picture>
-              <source media="(max-width: 1023px)" srcset="./img/good-3-tablet.jpg 1x, ./img/good-3-tablet@2x.jpg 2x">
+              <source type="image/webp" media="(max-width: 1023px)" srcset="./img/good-3-tablet.webp 1x, ./img/good-3-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="./img/good-3.webp 1x, ./img/good-3@2x.webp 2x">
+              <!-- 1х: 342px; 2x: 684px -->
               <img class="product__image" src="./img/good-3.jpg" width="342" height="503" srcset="./img/good-3@2x.jpg 2x" alt="Детский велосипед">
             </picture>
           </li>
@@ -108,8 +114,12 @@
         <h2 class="video__title">Видео про велосипеды</h2>
         <p class="video__description">В этом видео мы подробно расскажем про особенности выбора велосипеда для себя.</p>
         <div class="video__poster">
-          <img src="./img/poster.jpg" width="929" height="522" alt="Велосипед на темном фоне" class="video__image">
-          <button class="video__play" aria-label="Начать просмотр"></button>
+          <video class="video__source" width="929" height="522" src="#" poster="img/poster.jpg"></video>
+          <button class="video__play" aria-label="Начать просмотр">
+            <svg class="video__play-icon" width="65" height="65" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="img/sprite_auto.svg#icon-play"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </section>
@@ -121,7 +131,9 @@
       </div>
       <div class="map__wrapper">
         <picture>
-          <source media="(max-width: 1023px)" srcset="./img/map-tablet.jpg 1x, ./img/map-tablet@2x.jpg 2x">
+          <source type="image/webp" media="(max-width: 1023px)" srcset="./img/map-tablet.webp 1x, ./img/map-tablet@2x.webp 2x">
+          <source type="image/webp" srcset="./img/map.webp 1x, ./img/map@2x.webp 2x">
+          <!-- 1х: 957px; 2x: 1914px -->
           <img class="map__image" src="./img/map.jpg" width="957" height="530" srcset="./img/map@2x.jpg 2x" alt="Санкт-Петербург, ул. Большая Конюшенная, д. 19">
         </picture>
       </div>
