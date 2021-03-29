@@ -85,12 +85,17 @@
   margin: 0 auto;
 
   @media (max-width: $tablet-width) {
-    max-width: 503px;
+    width: 68.5%;
   }
 
   @media (max-width: $mobile-width) {
-    max-width: 100%;
+    width: 100%;
   }
+}
+
+.video__source {
+  width: 100%;
+  height: auto;
 }
 
 .video__play {
@@ -103,11 +108,12 @@
   padding: 0;
   border: none;
   background-color: transparent;
-  background-image: url('../../img/play-icon.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   cursor: pointer;
+
+  & .video__play-icon {
+    width: 100%;
+    height: auto;
+  }
 
   @media (max-width: $tablet-width) {
     width: 90px;
