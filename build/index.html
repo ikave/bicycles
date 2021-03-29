@@ -28,7 +28,14 @@
           <a href="#contacts" class="menu__link">Контакты</a>
         </li>
       </ul>
-      <button class="page-header__toggle" aria-label="Показать меню"></button>
+      <button class="page-header__toggle" aria-label="Показать меню">
+        <svg class="page-header__toggle-menu" width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="img/sprite_auto.svg#icon-menu"></use>
+        </svg>
+        <svg class="page-header__toggle-close" width="23" height="23" xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="img/sprite_auto.svg#icon-close"></use>
+        </svg>
+      </button>
     </nav>
   </header>
   <main>
@@ -36,9 +43,8 @@
     <section class="hero">
       <div class="hero__wrapper">
         <div class="hero__description">
-          <img class="hero__logo" src="./img/icon-logo.svg" width="68" height="21" alt="Moon logo">
-          <svg>
-
+          <svg class="hero__logo" width="68" height="21" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite_auto.svg#icon-logo"></use>
           </svg>
           <h1 class="hero__title">Мы продаем велосипеды</h1>
           <p class="hero__subtitle">Наш магазин отбирает только самые лучшие велосипеды для продажи</p>

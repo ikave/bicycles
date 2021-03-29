@@ -25,14 +25,13 @@
 
 .page-header__toggle {
   display: none;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
   padding: 0;
   border: none;
   background-color: $accent;
-  background-image: url('../../img/menu-icon.svg');
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
 
   @media (max-width: $tablet-width) {
@@ -40,11 +39,22 @@
     top: 0;
     right: 0;
     z-index: 1;
-    display: block;
+    display: flex;
+  }
+
+  & .page-header__toggle-close {
+    display: none;
   }
 
   &--opened {
     background-color: $white;
-    background-image: url('../../img/close-icon.svg');
+
+    & .page-header__toggle-close {
+      display: block;
+    }
+
+    & .page-header__toggle-menu {
+      display: none;
+    }
   }
 }
