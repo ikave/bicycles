@@ -387,6 +387,10 @@ body {
 .page-header--nojs .page-header__toggle {
   display: none; }
 
+.page-header--nojs .page-header__menu {
+  position: static;
+  display: block; }
+
 .page-header__nav {
   max-width: 1166px;
   width: 100%;
@@ -482,9 +486,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 9px;
+  padding: 0 20px 9px;
   font-weight: 300;
   font-size: 16px;
   line-height: 32px;
@@ -547,10 +549,7 @@ body {
     .hero__content {
       max-width: none;
       width: 100%;
-      padding-top: 138px;
-      padding-right: 21px;
-      padding-bottom: 76px;
-      padding-left: 21px;
+      padding: 138px 21px 76px;
       background-color: #131314;
       background-image: url("../img/hero-tablet.jpg");
       background-repeat: no-repeat;
@@ -561,10 +560,7 @@ body {
       background-image: url("../img/hero-tablet@2x.jpg"); } }
   @media (max-width: 767px) {
     .hero__content {
-      padding-top: 120px;
-      padding-right: 16px;
-      padding-left: 16px;
-      padding-bottom: 70px; } }
+      padding: 120px 16px 70px; } }
 
 .hero__logo {
   display: block;
@@ -610,14 +606,12 @@ body {
     .hero__form {
       max-width: 321px;
       margin: 0 auto;
-      padding-top: 70px;
-      padding-bottom: 70px; } }
+      padding: 70px 0; } }
   @media (max-width: 767px) {
     .hero__form {
       max-width: none;
       width: 100%;
-      padding-right: 16px;
-      padding-left: 16px; } }
+      padding: 70px 16px; } }
 
 .hero__form p {
   margin: 0;
@@ -640,9 +634,7 @@ body {
   display: block;
   width: 100%;
   margin-bottom: 20px;
-  padding-top: 13px;
-  padding-bottom: 9px;
-  padding-left: 30px;
+  padding: 13px 0 9px 30px;
   border: 1px solid #c9ccd4;
   border-radius: 6px;
   font: inherit;
@@ -681,8 +673,7 @@ body {
     cursor: initial; }
 
 .advantages {
-  padding-top: 150px;
-  padding-bottom: 150px; }
+  padding: 150px 0; }
   @media (max-width: 1023px) {
     .advantages {
       padding-top: 6px;
@@ -694,12 +685,10 @@ body {
 .advantages__wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 17px;
-  padding-right: 17px; }
+  padding: 0 17px; }
   @media (max-width: 767px) {
     .advantages__wrapper {
-      padding-left: 15px;
-      padding-right: 15px; } }
+      padding: 0 15px; } }
 
 .advantages h2 {
   margin: 0;
@@ -770,13 +759,11 @@ body {
         margin-bottom: 15px; } }
 
 .goods {
-  padding-top: 150px;
-  padding-bottom: 148px;
+  padding: 150px 0 148px;
   background-color: #f6f7f9; }
   @media (max-width: 1023px) {
     .goods {
-      padding-top: 50px;
-      padding-bottom: 25px; } }
+      padding: 50px 0 25px; } }
   @media (max-width: 767px) {
     .goods {
       padding-bottom: 12px; } }
@@ -784,8 +771,7 @@ body {
 .goods__wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 25px;
-  padding-right: 25px; }
+  padding: 0 25px; }
 
 .goods h2 {
   margin: 0;
@@ -891,8 +877,7 @@ body {
 
 .video {
   position: relative;
-  padding-top: 120px;
-  padding-bottom: 100px; }
+  padding: 120px 0 100px; }
   .video::before {
     content: "";
     position: absolute;
@@ -904,8 +889,7 @@ body {
     z-index: -1; }
   @media (max-width: 1023px) {
     .video {
-      padding-top: 70px;
-      padding-bottom: 50px; }
+      padding: 70px 0 50px; }
       .video::before {
         height: 413px; } }
   @media (max-width: 767px) {
@@ -917,13 +901,11 @@ body {
 .video__wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 17px;
-  padding-right: 17px;
+  padding: 0 17px;
   color: #ffffff; }
   @media (max-width: 767px) {
     .video__wrapper {
-      padding-right: 16px;
-      padding-left: 16px; } }
+      padding: 0 16px; } }
 
 .video h2 {
   margin: 0;
@@ -1012,8 +994,7 @@ body {
       padding-top: 19px; } }
 
 .map__description {
-  padding-left: 16px;
-  padding-right: 16px; }
+  padding: 0 16px; }
 
 .map h2 {
   margin: 0;
@@ -1066,18 +1047,13 @@ body {
 .page-footer {
   max-width: 1166px;
   margin: 0 auto;
-  padding-top: 36px;
-  padding-bottom: 74px; }
+  padding: 36px 0 74px; }
   @media (max-width: 1023px) {
     .page-footer {
-      padding-top: 18px;
-      padding-bottom: 30px; } }
+      padding: 18px 0 30px; } }
   @media (max-width: 767px) {
     .page-footer {
-      padding-top: 27px;
-      padding-left: 16px;
-      padding-right: 16px;
-      padding-bottom: 32px; } }
+      padding: 27px 16px 32px; } }
 
 .contacts {
   display: -webkit-box;

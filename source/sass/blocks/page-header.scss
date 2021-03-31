@@ -17,6 +17,11 @@
   display: none;
 }
 
+.page-header--nojs .page-header__menu {
+  position: static;
+  display: block;
+}
+
 .page-header__nav {
   max-width: 1166px;
   width: 100%;

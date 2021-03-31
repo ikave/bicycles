@@ -2,11 +2,9 @@
 
 (function(){
   var pageHeader = document.querySelector('.page-header');
-  var menu = document.querySelector('.menu');
-  var headerToggle = document.querySelector('.page-header__toggle');
+  var menu = pageHeader.querySelector('.page-header__menu');
+  var headerToggle = pageHeader.querySelector('.page-header__toggle');
 
-
-  menu.classList.remove('menu--nojs');
   pageHeader.classList.remove('page-header--nojs');
 
   headerToggle.addEventListener('click', function () {
