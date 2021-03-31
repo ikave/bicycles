@@ -38,10 +38,7 @@
   @media (max-width: $tablet-width) {
     max-width: none;
     width: 100%;
-    padding-top: 138px;
-    padding-right: 21px;
-    padding-bottom: 76px;
-    padding-left: 21px;
+    padding: 138px 21px 76px;
     background-color: $bg-dark;
     background-image: url("../img/hero-tablet.jpg");
     background-repeat: no-repeat;
@@ -54,10 +51,7 @@
   }
 
   @media (max-width: $mobile-width) {
-    padding-top: 120px;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 70px;
+    padding: 120px 16px 70px;
   }
 }
 
@@ -111,15 +105,13 @@
   @media (max-width: $tablet-width) {
     max-width: 321px;
     margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 0;
   }
 
   @media (max-width: $mobile-width) {
     max-width: none;
     width: 100%;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding: 70px 16px;
   }
 }
 

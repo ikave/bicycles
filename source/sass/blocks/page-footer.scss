@@ -1,18 +1,13 @@
 .page-footer {
   max-width: 1166px;
   margin: 0 auto;
-  padding-top: 36px;
-  padding-bottom: 74px;
+  padding: 36px 0 74px;
 
   @media (max-width: $tablet-width) {
-    padding-top: 18px;
-    padding-bottom: 30px;
+    padding: 18px 0 30px;
   }
 
   @media (max-width: $mobile-width) {
-    padding-top: 27px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 32px;
+    padding: 27px 16px 32px;
   }
 }
