@@ -18,6 +18,24 @@
   margin-right: 90px;
   margin-bottom: 22px;
 
+  @media (max-width: $mobile-width) {
+    margin-right: 0;
+  }
+}
+
+.contacts__item:last-child {
+  margin-right: 0;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba($black, 0.5);
+  transition: color 0.2s ease;
+
   &::before {
     content: "";
     background-repeat: no-repeat;
@@ -39,22 +57,6 @@
       background-image: url("../img/icon-phone.svg");
     }
   }
-
-  @media (max-width: $mobile-width) {
-    margin-right: 0;
-  }
-}
-
-.contacts__item:last-child {
-  margin-right: 0;
-}
-
-.contacts__link {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  color: rgba($black, 0.5);
-  transition: color 0.2s ease;
 
   &:hover,
   &:focus {
