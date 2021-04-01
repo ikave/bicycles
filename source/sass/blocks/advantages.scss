@@ -41,6 +41,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 38px;
+  row-gap: 40px;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -52,7 +53,6 @@
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
-    row-gap: 40px;
   }
 
   @media (max-width: $mobile-width) {
