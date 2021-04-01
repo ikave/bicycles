@@ -462,7 +462,8 @@ body {
       bottom: 0;
       padding-top: 100px;
       background-color: #ffffff;
-      z-index: 1; }
+      z-index: 1;
+      overflow-y: scroll; }
       .menu--opened {
         display: block;
         max-width: none; }
