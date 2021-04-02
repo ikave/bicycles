@@ -775,7 +775,7 @@ body {
   padding: 0 25px; }
   @media (max-width: 767px) {
     .goods__wrapper {
-      padding: 0 7.8%; } }
+      padding: 0 25px; } }
 
 .goods h2 {
   margin: 0;
@@ -854,7 +854,8 @@ body {
       width: 100%; } }
   @media (max-width: 767px) {
     .product {
-      max-width: none; } }
+      max-width: none;
+      width: auto; } }
 
 .product h3 {
   margin: 0;
