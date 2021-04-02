@@ -21,6 +21,6 @@ body {
   display: grid;
   min-width: 320px;
   min-height: 100vh;
-  grid-template-rows: min-content 1fr min-content;
+  grid-template-rows: 1fr min-content;
   font-family: "Open Sans", "Arial", sans-serif;
 }
